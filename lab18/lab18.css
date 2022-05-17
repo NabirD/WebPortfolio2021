@@ -1,0 +1,24 @@
+#box{
+  background-color:skyblue;
+  border: solid royalblue 3px;
+  width:75px;
+  height:75px;
+  position: relative;
+  left: 200px;
+}
+button{
+  border: double navy 1px;
+  background-color:royalblue;
+  color:white;
+  position:relative;
+  left:150px;
+}
+
+button:hover{
+  border: black;
+  background-color:darkred;
+  color: black;
+  position: relative;
+  left:150px;
+}
+

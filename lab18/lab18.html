@@ -1,0 +1,39 @@
+<!-- Doctype html-->
+<html>
+	<head>
+		<title> Lab 18</title>
+    <link href="lab18.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+    <div class="topnav"></div>
+    <div class="header"></div>
+    <h1>TAEHS</h1>
+    <h2>WEB Academy</h2>
+    <h3>Nabir Dehan</h3>
+    <h4>Lab 18</h4>
+    <h5>3/25/22</h5>
+    <div id="box"></div>
+    <button type="button" onclick="size()">Size</button>
+    <button type="button" onclick="shape()">Circle</button>
+    <button type="button" onclick="position()">Move</button>
+    <button type="button" onclick="hue()">Color</button>
+    
+    <script>
+      function hue(){
+        document.getElementById("box").style.backgroundColor = "red"
+        document.getElementById("box").style.borderColor = "black"
+      }
+      function position(){
+        document.getElementById("box").style.position = "sticky"
+      }
+      function size() {
+        document.getElementById("box").style.height = "150px"
+        document.getElementById("box").style.width = "150px"
+      }
+      function shape() {
+        document.getElementById("box").style.borderRadius = "100%"
+      }
+    </script>
+    </div>
+	</body>
+</html>

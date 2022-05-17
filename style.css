@@ -1,0 +1,28 @@
+*{
+  color:rgb(255, 255, 255);
+  }
+  /*wrtie a comment explaining what you are doing on line 2 */
+  *.topnav{
+    box-sizing: border-box;  
+  }
+  Body{
+    background-color: rgb(202, 235, 241);
+  }
+  /*style of the navigation bar*/
+  .topnav{background-color: rgb(158, 201, 220);
+  overflow: hidden;
+  }
+
+ .topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+}
